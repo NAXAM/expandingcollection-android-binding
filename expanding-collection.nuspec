@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.Ramotion.Expandingcollection.Droid</id>
+        <version>0.9.0</version>
+        <description>Xamarin Binding Library - Ramotion ExpandingCollection</description>
+        <authors>Vu Duc Tuyen</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Naxam - Ramotion ExpandingCollection</title>
+        <releaseNotes>Ramotion ExpandingCollection v0.9.0</releaseNotes>
+        <summary>Xamarin Binding Library - Ramotion ExpandingCollection</summary>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/xand-ramotion-expandingcollection</projectUrl>
+        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <tags>Xamarin.Android, Expandingcollection</tags>
+        <dependencies>
+            <dependency id="Xamarin.Android.Support.v7.AppCompat" version="25.1.1"/>
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Naxam.Ramotion.Expandingcollection.Droid/bin/Release/Naxam.Ramotion.Expandingcollection.Droid.dll" target="lib/MonoAndroid10/Naxam.Ramotion.Expandingcollection.Droid.dll" />
+    </files>
+</package>
