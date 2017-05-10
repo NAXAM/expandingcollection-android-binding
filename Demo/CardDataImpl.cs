@@ -31,8 +31,9 @@ namespace Demo
             {
                 var resIndex = i % 3;
                 var title = $"Card {i + 1}";
-                list.Add(new CardDataImpl {
-                    HeadBackgroundResource = (Integer) res[resIndex * 2],
+                list.Add(new CardDataImpl
+                {
+                    HeadBackgroundResource = (Integer)res[resIndex * 2],
                     MainBackgroundResource = (Integer)res[resIndex * 2 + 1],
                     CardTitle = title,
                     ListItems = CreateItemsList(title)
